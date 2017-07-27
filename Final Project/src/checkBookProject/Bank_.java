@@ -45,7 +45,7 @@ public class Bank_ {
 	    	
     }//addCheck
 	
-	public static void addNewCheck(int arrayInteraction){
+	public static void addNewCheck(int arrayInteraction){// does the same thing as addCheck(), this method is here for testing
 		double addCheckAmount;
 		String addCheckPayee;
 		String addCheckReason;
@@ -62,7 +62,7 @@ public class Bank_ {
 	}
 	
 	
-	public static String userPromptString(){
+	public static String userPromptString(){ //catch all method for getting a string from the user
 		Scanner scannerString = new Scanner(System.in);
     	String returnString = null;
 		try {
@@ -81,7 +81,7 @@ public class Bank_ {
 		return returnString;
 	}//userPropmtString()
 	
-	public static double userPromptDouble(){
+	public static double userPromptDouble(){ //catch all method for a double from the user.
 		Scanner scannerDouble = new Scanner(System.in);
     	double returnDouble = 0;
 		try {
